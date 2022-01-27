@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>canvas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="canvas-wrapper">
+        <div id="aside">
+            <div class="topbar">
+                <img src="./img/pen.png" id="pen" class="active">
+                <img src="./img/clean.png" id="clean">
+                <img src="./img/bg.png" id="backGround">
+            </div>
+            <div class="Color">
+                <a class="color-btn" id="black-color-btn"></a>
+                <a class="color-btn" id="green-color-btn"></a>
+                <a class="color-btn" id="blue-color-btn"></a>
+                <a class="color-btn" id="white-color-btn"></a>
+                <a class="color-btn" id="pink-color-btn"></a>
+                <a class="color-btn" id="yellow-color-btn"></a>
+            </div>
+            <div class="panSize">
+                <p>画笔/橡皮擦粗细:</p>
+                <input type="range" max="20" min="1" value="4" id="rangeIpt">
+            </div>
+        </div>
+        <!-- <canvas id="canvas-bg"> </canvas> -->
+        <canvas id="canvas">
+
+        </canvas>
+        <script src="main.js"></script>
+
+    </div>
+
+
+
+</body>
+
+</html>
